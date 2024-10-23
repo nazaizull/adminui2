@@ -115,6 +115,7 @@ const AuthLayout = (props) => {
             {/* sign in with google end */}
           </>
         )}
+
         {/* link start */}
         <div className="flex justify-center">
           {type == "sign up" && (
@@ -127,6 +128,7 @@ const AuthLayout = (props) => {
               </Link>
             </>
           )}
+
           {type == "sign in" && (
             <div className="text-center">
               <Link to="/register" className="text-primary text-sm font-bold">
