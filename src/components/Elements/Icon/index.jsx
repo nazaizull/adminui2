@@ -231,9 +231,9 @@ const LogoutIcon = () => (
 
 const KebabMenuIcon = () => (
   <IconWrapper>
-    <circle cx="2" cy="2" r="2" fill="currentColor" />
-    <circle cx="2" cy="10" r="2" fill="currentColor" />
-    <circle cx="2" cy="18" r="2" fill="currentColor" />
+    <circle cx="22" cy="2" r="2" fill="currentColor" />
+    <circle cx="22" cy="10" r="2" fill="currentColor" />
+    <circle cx="22" cy="18" r="2" fill="currentColor" />
   </IconWrapper>
 );
 
