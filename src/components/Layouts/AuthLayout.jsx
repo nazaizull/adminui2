@@ -38,7 +38,10 @@ const AuthLayout = (props) => {
             {/* teks start */}
             <div className="my-9 px-7 flex justify-center text-xs text-gray-03 items-center flex-col static">
               <div className="border border-gray-05 w-full"></div>
-              <div class="px-2 bg-special-mainBg absolute"> or {type} with</div>
+              <div className="px-2 bg-special-mainBg absolute">
+                {" "}
+                or {type} with
+              </div>
             </div>
             {/* teks end */}
             {/* sign in with google start */}
@@ -48,9 +51,9 @@ const AuthLayout = (props) => {
                 type="button"
               >
                 <svg
-                  class="h-6 w-6 mr-2"
+                  className="h-6 w-6 mr-2"
                   xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                   width="800px"
                   height="800px"
                   viewBox="-0.5 0 48 48"
@@ -62,9 +65,9 @@ const AuthLayout = (props) => {
                   <g
                     id="Icons"
                     stroke="none"
-                    stroke-width="1"
+                    strokeWidth="1"
                     fill="none"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                   >
                     {" "}
                     <g
